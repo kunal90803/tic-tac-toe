@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #548687;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+}
+
+.game{
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    width: 340px;
+    height: 340px;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    border-radius: 10%;
+    box-shadow: 2px 2px rgb(34, 21, 21);
+    font-size: 80px;
+}
+.reset{
+    padding: 10px;
+    
+}
+button{
+    cursor: pointer;
+}
